@@ -83,8 +83,8 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ Hi Thᴇrᴇ Hᴜᴍᴀɴs! I'ʍ Cᴀᴇʀᴀ [✨](https://telegra.ph/file/6ecb6729ece97dae6148b.jpg)
-A Pᴏwᴇrful Grᴏuᴩ Mᴀnᴀgᴇʍᴇnᴛ Bᴏᴛ Bᴀsᴇd On Tʜᴇ Bᴇɢɪɴɴɪɴɢ Aғᴛᴇʀ Tʜᴇ Eɴᴅ Thᴇʍᴇ.
+PM_START_TEXT = """ Hi Thᴇrᴇ Hᴜᴍᴀɴs! I'ʍ Tᴏɢᴀ [✨](https://telegra.ph/file/1d51d0ae8df5cae55b9d2.jpg)
+A Pᴏwᴇrful Grᴏuᴩ Mᴀnᴀgᴇʍᴇnᴛ Bᴏᴛ Bᴀsᴇd On Mʏ Hᴇʀᴏ Aᴄᴀᴅᴇᴍɪᴀ Tʜᴇᴍᴇ.
 Thᴇsᴇ Arᴇ Thᴇ Pᴏwᴇrs I Pᴏssᴇs -
 ‣ Wᴀrning sysᴛᴇʍ.
 ‣ Arᴛifiᴄiᴀl inᴛᴇlligᴇnᴄᴇ.
@@ -169,13 +169,13 @@ def start(update: Update, context: CallbackContext):
     [
         InlineKeyboardButton(text="Kᴀizuryu", url=f"https://t.me/TheKaizuryu"),
         InlineKeyboardButton(
-            text="Chᴀᴛ Grᴏuᴩ", url=f"https://t.me/Anime_Chat_XKaizuryu"
+            text="Chᴀᴛ Grᴏuᴩ", url=f"https://t.me/AniTard_Talks"
         ),
     ],
     [
-        InlineKeyboardButton(text="Ownᴇr", url=f"https://t.me/AlecFreon"),
+        InlineKeyboardButton(text="Ownᴇr", url=f"https://t.me/kuro_tetsuro"),
         InlineKeyboardButton(
-            text="Cᴀᴇʀᴀ Infᴏ", callback_data="Caera_"
+            text="Tᴏɢᴀ Infᴏ", callback_data="Toga_"
         ),
     ],
     [
@@ -261,13 +261,13 @@ def Yae_about_callback(update: Update, context: CallbackContext):
     [
         InlineKeyboardButton(text="Kᴀizuryu", url=f"https://t.me/TheKaizuryu"),
         InlineKeyboardButton(
-            text="Chᴀᴛ Grᴏuᴩ", url=f"https://t.me/Anime_Chat_XKaizuryu"
+            text="Chᴀᴛ Grᴏuᴩ", url=f"https://t.me/AniTard_Talks"
         ),
     ],
     [
-        InlineKeyboardButton(text="Ownᴇr", url=f"https://t.me/AlecFreon"),
+        InlineKeyboardButton(text="Ownᴇr", url=f"https://t.me/kuro_tetsuro"),
         InlineKeyboardButton(
-            text="Cᴀᴇʀᴀ Infᴏ", callback_data="Caera_"
+            text="Tᴏɢᴀ Infᴏ", callback_data="Toga_"
         ),
     ],
     [
