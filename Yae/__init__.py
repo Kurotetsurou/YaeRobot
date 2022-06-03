@@ -101,7 +101,7 @@ else:
     PORT = Config.PORT
     URL = Config.URL
 
-REDIS_URL = "redis://:V6OvHLvjEnbLzo3VKY7l1TmvA39q0zn2@redis-11612.c240.us-east-1-3.ec2.cloud.redislabs.com:11612"
+REDIS_URL = "redis://:5Ay7Ld5bsA7iTVoH06R9Ug1ifDNmqLB4@redis-17175.c62.us-east-1-4.ec2.cloud.redislabs.com:17175"
 
 
 REDIS = StrictRedis.from_url(REDIS_URL, decode_responses=True)
