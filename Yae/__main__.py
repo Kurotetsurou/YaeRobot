@@ -83,8 +83,8 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ Hi Thᴇrᴇ Bᴀʙᴇ! I'ʍ Yᴀᴇ Miᴋᴏ [✨](https://telegra.ph/file/e49fc8b774c8807f0a417.jpg)
-A Pᴏwᴇrful Grᴏuᴩ Mᴀnᴀgᴇʍᴇnᴛ Bᴏᴛ Bᴀsᴇd On Gᴇnshin Iʍᴩᴀᴄᴛ Thᴇʍᴇ.
+PM_START_TEXT = """ Hi Thᴇrᴇ Hᴜᴍᴀɴs! I'ʍ Cᴀᴇʀᴀ [✨](https://telegra.ph/file/6ecb6729ece97dae6148b.jpg)
+A Pᴏwᴇrful Grᴏuᴩ Mᴀnᴀgᴇʍᴇnᴛ Bᴏᴛ Bᴀsᴇd On Tʜᴇ Bᴇɢɪɴɴɪɴɢ Aғᴛᴇʀ Tʜᴇ Eɴᴅ Thᴇʍᴇ.
 Thᴇsᴇ Arᴇ Thᴇ Pᴏwᴇrs I Pᴏssᴇs -
 ‣ Wᴀrning sysᴛᴇʍ.
 ‣ Arᴛifiᴄiᴀl inᴛᴇlligᴇnᴄᴇ.
@@ -173,9 +173,9 @@ def start(update: Update, context: CallbackContext):
         ),
     ],
     [
-        InlineKeyboardButton(text="Ownᴇr", url=f"https://t.me/xelcius"),
+        InlineKeyboardButton(text="Ownᴇr", url=f"https://t.me/AlecFreon"),
         InlineKeyboardButton(
-            text="Yᴀᴇ Infᴏ", callback_data="Yae_"
+            text="Cᴀᴇʀᴀ Infᴏ", callback_data="Caera_"
         ),
     ],
     [
@@ -223,7 +223,7 @@ def start(update: Update, context: CallbackContext):
 def Yae_about_callback(update: Update, context: CallbackContext):
     first_name = update.effective_user.first_name
     query = update.callback_query
-    if query.data == "Yae_":
+    if query.data == "Caera_":
         query.message.edit_text(
             text="""Hello *{}*, My name is *{}*. A Powerful Telegram Group Management Bot built to help you manage Group easily.
             \n ‣ I can Restrict Users.
@@ -240,16 +240,16 @@ def Yae_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                    [
-                     InlineKeyboardButton(text="Support", url="https://t.me/Anime_Chat_XKaizuryu"),
+                     InlineKeyboardButton(text="Support", url="https://t.me/CaeraSupport"),
                      InlineKeyboardButton(text="News", url="https://t.me/TheKaizuryu")
                    ],
                    [
-                    InlineKeyboardButton(text="Back", callback_data="Yae_back")
+                    InlineKeyboardButton(text="Back", callback_data="Caera_back")
                    ]
                 ]
             ),
         )
-    elif query.data == "Yae_back":
+    elif query.data == "Caera_back":
         query.message.edit_text(
                 PM_START_TEXT.format(
                         escape_markdown(first_name), escape_markdown(context.bot.first_name)),
@@ -265,9 +265,9 @@ def Yae_about_callback(update: Update, context: CallbackContext):
         ),
     ],
     [
-        InlineKeyboardButton(text="Ownᴇr", url=f"https://t.me/xelcius"),
+        InlineKeyboardButton(text="Ownᴇr", url=f"https://t.me/AlecFreon"),
         InlineKeyboardButton(
-            text="Yᴀᴇ Infᴏ", callback_data="Yae_"
+            text="Cᴀᴇʀᴀ Infᴏ", callback_data="Caera_"
         ),
     ],
     [
