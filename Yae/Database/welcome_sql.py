@@ -7,7 +7,7 @@ from Yae.Database import BASE, SESSION
 from sqlalchemy import BigInteger, Boolean, Column, String, UnicodeText
 
 DEFAULT_WELCOME = "Hey {first}, how are you?"
-DEFAULT_GOODBYE = "Nice knowing ya!"
+DEFAULT_GOODBYE = "Tch! bitch ran away"
 
 DEFAULT_WELCOME_MESSAGES = [
     "{first} is here!",  # Discord welcome messages copied
@@ -161,7 +161,7 @@ DEFAULT_WELCOME_MESSAGES = [
     "Come with me if you want to live",
 ]
 DEFAULT_GOODBYE_MESSAGES = [
-    "{first} will be missed.",
+    "{first} will not be missed.",
     "{first} just went offline.",
     "{first} has left the lobby.",
     "{first} has left the clan.",
